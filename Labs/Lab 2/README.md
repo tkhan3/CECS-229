@@ -12,8 +12,11 @@ print(results)
 
 Suppose dlist is a list of dictionaries and k is a key that appears in all the dictionaries in dlist. Write a comprehension that evaluates to the list whose ith element is the value corresponding to key k in the ith dictionary in dlist. Test your comprehension with some data. comprehension. 
 Here are some example data. 
+
 dlist = [{'James':'Sean', 'director':'Terence'}, {'James':'Roger', 'director':'Lewis'}, {'James':'Pierce', 'director':'Roger'}] 
+
 k = 'James'
+
 ```python
 dlist = [{'James':'Sean', 'director':'Terence'}, {'James':'Roger','director':'Lewis'}, {'James':'Pierce', 'director':'Roger'}]
 k = 'James'
